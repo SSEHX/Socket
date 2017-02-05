@@ -2,7 +2,6 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.List;
 
 /*
 
@@ -34,7 +33,6 @@ public class Server{
     class Handle implements Runnable{
 
         private Socket socket = null;
-        private BufferedReader bufferedReader = null;
         private ObjectInputStream objectInputStream = null;
         private ObjectOutputStream objectOutputStream = null;
         private Data data = null;

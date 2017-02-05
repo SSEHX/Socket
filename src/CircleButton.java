@@ -1,4 +1,3 @@
-package book.Graphics;
 import java.awt.*;
 import java.awt.geom.*;//注意此包加载  
 import javax.swing.*;

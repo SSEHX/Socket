@@ -1,3 +1,5 @@
+package com.paobe.FileOption;
+
 import javax.swing.*;
 
 /**
@@ -6,6 +8,9 @@ import javax.swing.*;
  */
 public class SetWindowCenter {
     public SetWindowCenter(JFrame jFrame) {
+
+        jFrame.setSize(550,200);
+        jFrame.setVisible(true);
         int width = jFrame.getWidth();
         int height = jFrame.getHeight();
 

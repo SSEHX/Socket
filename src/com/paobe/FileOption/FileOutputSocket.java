@@ -1,4 +1,4 @@
-import sun.nio.ch.sctp.SendFailed;
+package com.paobe.FileOption;
 
 import java.io.DataOutputStream;
 import java.io.File;
@@ -34,9 +34,8 @@ public class FileOutputSocket {
             dataOutputStream.writeUTF(String.valueOf(fileLenght));
 
             while ((dataLenght = fileInputStream.read(sendData)) != -1){
-                dataOutputStream.write(sendData);
+                dataOutputStream.write(sendData,0,dataLenght);
                 sendDataLenght = sendDataLenght+dataLenght;
-                System.out.println((sendDataLenght/fileLenght)*100);
             }
         } catch (IOException e) {
             e.printStackTrace();

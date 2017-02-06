@@ -1,7 +1,8 @@
+import com.paobe.FileOption.SetWindowCenter;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.IOException;
 
 /**
  * Created by xuqi on 2017/1/30.

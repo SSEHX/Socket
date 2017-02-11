@@ -48,8 +48,8 @@ public class FileOutputSocket {
         Socket socket = null;
         File file = null;
         try {
-            socket = new Socket("127.0.0.1", 3333);
-            file = new File("/Users/xuqi/Desktop/file_test/a.zip");
+            socket = new Socket("192.168.1.113", 3333);
+            file = new File("/Users/xuqi/Documents/Virtual Machines.localized/Ubuntu 64 位.zip");
         } catch (IOException e) {
             e.printStackTrace();
         }
